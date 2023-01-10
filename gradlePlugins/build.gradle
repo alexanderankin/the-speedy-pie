@@ -1,3 +1,4 @@
+//file:noinspection VulnerableLibrariesLocal
 plugins {
     id 'groovy-gradle-plugin'
 }
@@ -6,4 +7,5 @@ repositories.gradlePluginPortal()
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-gradle-plugin:3.0.1'
+    implementation 'com.github.node-gradle:gradle-node-plugin:3.5.1'
 }

@@ -1,4 +1,7 @@
 spring:
+  application:
+    name: store-app
+
   datasource:
     # CREATE DATABASE tsp;
     # CREATE USER tsp WITH PASSWORD 'tsp';

@@ -1,0 +1,26 @@
+plugins {
+    id 'com.github.node-gradle.node' // version '3.5.1'
+}
+
+node {
+    download.set true
+    version.set '16.19.0'
+    npmInstallCommand.set 'ci'
+}
+
+
+def dist = tasks.register('dist', NpmTask) { n ->
+    // define inputs and outputs so gradle will cache the result
+    n.inputs.files('./src')
+    n.outputs.dir('./dist')
+    n.args = ['run', 'build']
+
+    n.dependsOn(tasks.npmInstall)
+}
+
+tasks.register('distCopy', Copy) { c ->
+    c.from(files('./dist/frontend'))
+    c.into(project(':' + project.getName().replace('-frontend', ''))
+            .projectDir.toPath().resolve('src/main/resources/public'))
+    c.dependsOn(dist, tasks.npmInstall)
+}
