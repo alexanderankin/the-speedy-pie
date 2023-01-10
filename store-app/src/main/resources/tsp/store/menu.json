@@ -1,0 +1,120 @@
+{
+  "crusts": [
+    {
+      "name": "Hand Tossed",
+      "description": "Garlic-seasoned crust with a rich, buttery taste.",
+      "sizes": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ]
+    },
+    {
+      "name": "Gluten Free Crust",
+      "description": "Domino's pizza made with a Gluten Free Crust.",
+      "sizes": [
+        "s"
+      ]
+    },
+    {
+      "name": "Handmade Pan",
+      "description": "Two layers of cheese, toppings to the edge, baked in a pan for a crust that is golden and crispy with a buttery taste.",
+      "sizes": [
+        "m"
+      ]
+    },
+    {
+      "name": "Crunchy Thin Crust",
+      "description": "Thin enough for the optimum crispy to crunchy ratio and square cut to be perfectly sharable.",
+      "sizes": [
+        "m",
+        "l"
+      ]
+    },
+    {
+      "name": "Brooklyn Style",
+      "description": "Hand stretched to be big, thin and perfectly foldable.",
+      "sizes": [
+        "l",
+        "xl"
+      ]
+    }
+  ],
+  "pizza": {
+    "specialty": [
+      {
+        "name": "Create Your Own",
+        "description": "Be the Picasso of your next pizza night. Choose from our awesome ingredients and crusts. Onions, sausage, peppers, olives.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Supreme Pizza",
+        "description": "This loaded pizza is the perfect choice for family dinner or a lunch with your crew. Includes pepperoni, seasoned pork, beef, mushrooms, green bell peppers and onions.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Meat Lover's Pizza",
+        "description": "Packed with pepperoni, Italian sausage, ham, bacon, seasoned pork and beef, this pizza is NOT messing around.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "description": "Ever wished your pepperoni pizza had more pepperoni? Of course you did. This pizza has 50% more pepperoni than your average pizza pie.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Veggie Lover's Pizza",
+        "description": "Pizza is officially a vegetable. This garden delight has all the fresh veggie toppings you love - mushrooms, onions, green bell peppers, and more.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Backyard BBQ Chicken Pizza",
+        "description": "This BBQ pizza comes topped with grilled chicken, bacon and onion. Who's the grillmaster now?",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Buffalo Chicken Pizza",
+        "description": "We took your favorite food and put it on a pizza. With tangy buffalo sauce, tender chicken, onions and banana peppers, this beautiful masterpiece tastes like a football game feels.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      },
+      {
+        "name": "Hawaiian Chicken Pizza",
+        "description": "Give your taste buds a tropical vacation with this amped up Hawaiian pizza. It's got tasty chicken, ham, pineapple AND green peppers.",
+        "price": [
+          {
+            "size": "s"
+          }
+        ]
+      }
+    ]
+  }
+}

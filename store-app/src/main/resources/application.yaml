@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    # CREATE DATABASE tsp;
+    # CREATE USER tsp WITH PASSWORD 'tsp';
+    # grant all privileges on database 'tsp' to tsp;
+    url: jdbc:postgresql://localhost/tsp
+    username: tsp
+    password: tsp
+
+  security:
+    user:
+      name: tsp
+      password: tsp
+
+server:
+  port: 8081
