@@ -10,6 +10,13 @@ spring:
     username: tsp
     password: tsp
 
+  session:
+    jdbc:
+      initialize-schema: always
+      table-name: store_app_session
+      schema: classpath:/db/session-schema.sql
+    timeout: PT768H
+
   security:
     user:
       name: tsp

@@ -1,5 +1,6 @@
 rootProject.name = 'the-speedy-pie'
 includeBuild 'gradlePlugins'
+include 'common'
 include 'store-app'
 include 'store-app-frontend'
 include 'customer-app'
